@@ -1,0 +1,95 @@
+* {
+  text-transform: capitalize;
+  padding: 0px;
+  margin: 0px;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #e6e6ff;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+.animeHeader {
+  margin-left: 50px;
+}
+
+.animeHeader input:hover {
+  outline: none;
+  border: none;
+}
+
+.animeHeader input {
+  outline: none;
+  padding-left: 15px;
+  width: 530px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+}
+
+.animeDisplay {
+  padding-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.headng {
+  transform: translate(0, -10px);
+  color: white;
+  font-size: 30px;
+}
+
+.nav {
+  padding: 10px 75px;
+  width: 100%;
+  height: 110px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+.animeHeader {
+  margin-left: auto;
+  color: #fff;
+}
+
+.home-about {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.home-about div {
+  margin-left: 70px;
+  cursor: pointer;
+  font-size: 25px;
+  color: rgb(170, 127, 127);
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.home-about div:hover {
+  background: whitesmoke;
+}
+
+.nav-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
